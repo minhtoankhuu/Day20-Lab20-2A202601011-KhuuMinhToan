@@ -1,0 +1,36 @@
+{
+  "primary": {
+    "label": "primary (Q4_K_M)",
+    "model_path": "/home/kmt921/Day20-Track2-ModelServing-Lab/models/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+    "n_threads": 16,
+    "n_ctx": 2048,
+    "n_batch": 512,
+    "n_gpu_layers": 99,
+    "load_ms": 2316.1,
+    "ttft_ms_p50": 108.0,
+    "ttft_ms_p95": 196.8,
+    "tpot_ms_p50": 40.21,
+    "tpot_ms_p95": 58.24,
+    "e2e_ms_p50": 2688.5,
+    "e2e_ms_p95": 3773.2,
+    "e2e_ms_p99": 3884.5,
+    "decode_rate_tok_s": 24.9
+  },
+  "compare": {
+    "label": "compare (Q2_K)",
+    "model_path": "/home/kmt921/Day20-Track2-ModelServing-Lab/models/tinyllama-1.1b-chat-v1.0.Q2_K.gguf",
+    "n_threads": 16,
+    "n_ctx": 2048,
+    "n_batch": 512,
+    "n_gpu_layers": 99,
+    "load_ms": 318.1,
+    "ttft_ms_p50": 119.7,
+    "ttft_ms_p95": 146.9,
+    "tpot_ms_p50": 26.02,
+    "tpot_ms_p95": 28.45,
+    "e2e_ms_p50": 1707.7,
+    "e2e_ms_p95": 1856.8,
+    "e2e_ms_p99": 1881.1,
+    "decode_rate_tok_s": 38.4
+  }
+}
